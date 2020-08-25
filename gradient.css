@@ -17,16 +17,16 @@
     font-weight: bold;
     transition: 0.1s linear;
 }
+#message-delete.focused-3afm-j, #guild-header-popout-leave.focused-3afm-j, #guild-context-leave-guild.focused-3afm-j, #message-actions-delete.focused-3afm-j, #user-context-kick.focused-3afm-j, #user-context-ban.focused-3afm-j, #user-context-voice-disconnect.focused-3afm-j, #user-context-voice-deafen.focused-3afm-j, #user-context-voice-mute.focused-3afm-j, #channel-context-delete-channel.focused-3afm-j { 
+    color: rgb(255, 255, 255) !important;
+    background-image: var(--red-buttons-gradient);
+ }
 .focused-3afm-j > .imageContainer-2fGqYU > img, .focused-3ZzkKr > img { 
    transform: scale(1.3);
    transition: 0.1s linear;
 }
 
 /* Status Menu Gradients. */
-#message-delete.focused-3afm-j, #guild-header-popout-leave.focused-3afm-j, #guild-context-leave-guild.focused-3afm-j, #message-actions-delete.focused-3afm-j, #user-context-kick.focused-3afm-j, #user-context-ban.focused-3afm-j, #user-context-voice-disconnect.focused-3afm-j, #user-context-voice-deafen.focused-3afm-j, #user-context-voice-mute.focused-3afm-j, #channel-context-delete-channel.focused-3afm-j { 
-   color: rgb(255, 255, 255) !important;
-   background-image: var(--red-buttons-gradient);
-}
 #guild-header-popout-premium-subscribe.focused-3afm-j { 
    color: rgb(255, 255, 255) !important;
    background-image: var(--server-boost-gradient);
@@ -66,6 +66,11 @@
     transform: scale(1.3);
 }
 
+/* Buttons that are in settings. */
+.item-PXvHYJ.selected-3s45Ha, [data-item-id="DiscordNitro"]:focus {
+    background-image: var(--main-gradient) !important;
+}
+
 /* Role Button Stuff. */
 .addButton-pcyyf6:hover {
     background-image: var(--main-gradient) !important;
@@ -73,10 +78,11 @@
     transition: 0.1s linear;
 }
 .role-2irmRk:hover  {
+    color: rgb(255, 255, 255);
     background-image: var(--white-gradient);
 }
 
-/* Too lazy to sort. */
+/* Other Button Gradients. */
 .barFill-23-gu- { /* User Volume. */
     background-image: var(--main-gradient) !important;
 }
