@@ -16,5 +16,8 @@ For manual installation, open **your themes folder** and enter the following:
 
     git clone https://github.com/LuckFire/GradientButtons
 
+
 ## Credits
-Thank you Hoofer for yelling at me in VC while I was making this, as well for helping a bit with the code. <3
+Hoofer - For yelling at me in VC while making this and helping me a bit with the code.
+
+bototo2 - For teaching me that I can use #id selector instead of [id=""].
