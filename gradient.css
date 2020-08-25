@@ -102,6 +102,15 @@
 }
 
 
+/* Powercord Updater Buttons. */
+.button-38aScr.lookFilled-1Gx00P.colorYellow-2JqYwt { 
+    background-image: var(--orange-buttons-gradient) !important
+}
+.button-38aScr.lookFilled-1Gx00P.colorRed-1TFJan {
+    background-image: var(--red-buttons-gradient) !important
+}
+
+
 /* Other unsorted gradients. */
 .bar-2Qqk5Z > .barFill-23-gu- { 
     background-image: var(--main-gradient) !important;
