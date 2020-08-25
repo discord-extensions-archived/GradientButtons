@@ -18,3 +18,4 @@ For manual installation, open **your themes folder** and enter the following:
 
 ## Credits
 Thank you Hoofer for yelling at me in VC while I was making this, as well for helping a bit with the code. <3
+Thank you to Noval as well for being a Pepega Clap
