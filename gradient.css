@@ -1,0 +1,54 @@
+/* Adds a gradient to option buttons. */
+.focused-3afm-j, .focused-3ZzkKr, [id="guild-header-popout-invite-people"].focused-3afm-j, [id="guild-context-invite-people"].focused-3afm-j, [id="channel-context-invite-people"].focused-3afm-j { 
+    color: rgb(255, 255, 255) !important;
+    background-image: linear-gradient(315deg, #495DA4 0%, #7289DA 74%);
+    font-size: 15px;
+    font-weight: bold;
+    transition: 0.1s linear;
+ }
+ .focused-3afm-j > .imageContainer-2fGqYU > img, .focused-3ZzkKr > img { 
+    transform: scale(1.3);
+    transition: 0.1s linear;
+ }
+ /* Status Menu Gradients. */
+ [id="message-delete"].focused-3afm-j, [id="guild-header-popout-leave"].focused-3afm-j, [id="guild-context-leave-guild"].focused-3afm-j, [id="message-actions-delete"].focused-3afm-j, [id="user-context-kick"].focused-3afm-j, [id="user-context-ban"].focused-3afm-j, [id="user-context-voice-disconnect"].focused-3afm-j, [id="user-context-voice-deafen"].focused-3afm-j, [id="user-context-voice-mute"].focused-3afm-j, [id="channel-context-delete-channel"].focused-3afm-j { 
+    color: rgb(255, 255, 255) !important;
+    background-image: linear-gradient(315deg, #AA3738 0%, #F04747 74%);
+ }
+ [id="guild-header-popout-premium-subscribe"].focused-3afm-j { 
+    color: rgb(255, 255, 255) !important;
+    background-image: linear-gradient(315deg, #8980F0 0%, #D577F0 74%);
+ }
+ [id="status-picker-online"].focused-3afm-j { 
+    background-image: linear-gradient(315deg, #264D41 0%, #43B581 74%);
+ }
+ [id="status-picker-idle"].focused-3afm-j { 
+    background-image: linear-gradient(315deg, #C2831B 0%, #FFB740 74%);
+ }
+ [id="status-picker-dnd"].focused-3afm-j { 
+    background-image: linear-gradient(315deg, #AA3738 0%, #F04747 74%);
+ }
+ [id="status-picker-invisible"].focused-3afm-j { 
+    background-image: linear-gradient(315deg, #373A45 0%, #747F8D 74%);
+ }
+ /* sum buttons on server list gradients. */
+ .wrapper-1BJsBx.selected-bZ3Lue > .childWrapper-anI2G9 > .homeIcon-tEMBK1 {
+    transform: scale(1.1);
+    transition: 0.1s linear;
+ }
+ .wrapper-1BJsBx.selected-bZ3Lue > .childWrapper-anI2G9 {
+   background-image: linear-gradient(315deg, #495DA4 0%, #7289DA 74%);
+   font-size: 15px;
+   font-weight: bold;
+ }
+ .circleIconButton-jET_ig {
+    transition: 0.1s linear;
+ }
+ .selected-ugP_am > svg {
+    transform: scale(1.3);
+ }
+ .selected-ugP_am {
+   background-image: linear-gradient(315deg, #495DA4 0%, #7289DA 74%);
+   font-size: 15px;
+   font-weight: bold;
+ }

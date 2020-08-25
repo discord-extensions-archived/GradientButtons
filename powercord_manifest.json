@@ -1,0 +1,9 @@
+{
+    "name": "Gradient Button",
+    "description": "Some neat-o gradient buttons for Discord.",
+    "version": "1.0.0",
+    "author": "LuckFire#4800",
+    "theme": "gradient.css",
+    "consent": "false",
+    "license": "MIT"
+}
