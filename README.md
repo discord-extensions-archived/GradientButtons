@@ -3,8 +3,9 @@ Add some spice to your buttons, some very neat-o buttons for Discord. Heck yeah 
 
 ## Preview
 ![Gradient Buttons owo](https://cdn.discordapp.com/attachments/738968109288914976/747875750211747992/jfU46311eU.gif)
+![Server Menu Popout Q.Q](https://cdn.discordapp.com/attachments/738968109288914976/747881491698024598/hST0ErlUIr.gif)
 ![Status Menu Gradients uwu](https://cdn.discordapp.com/attachments/738968109288914976/747874809836339201/aIXhec9Ygk.gif)
-![Sever List Gradients O.O](https://cdn.discordapp.com/attachments/738968109288914976/747878993419829380/JKK6FuwR8C.gif)
+![Sever List Gradients O](https://cdn.discordapp.com/attachments/738968109288914976/747878993419829380/JKK6FuwR8C.gif)
 
 ## Installation
 For quick installation, go to **Settings > Themes > Quick CSS** and add the following code:
