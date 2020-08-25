@@ -9,7 +9,7 @@
 }
 
 /* Adds a gradient to option buttons. */
-.focused-3afm-j, .focused-3ZzkKr, [id="guild-header-popout-invite-people"].focused-3afm-j, [id="guild-context-invite-people"].focused-3afm-j, [id="channel-context-invite-people"].focused-3afm-j { 
+.focused-3afm-j, .focused-3ZzkKr, #guild-header-popout-invite-people.focused-3afm-j, #guild-context-invite-people.focused-3afm-j, #channel-context-invite-people.focused-3afm-j { 
     color: rgb(255, 255, 255) !important;
     background-image: var(--main-gradient);
     font-size: 15px;
@@ -22,29 +22,29 @@
 }
 
 /* Status Menu Gradients. */
-[id="message-delete"].focused-3afm-j, [id="guild-header-popout-leave"].focused-3afm-j, [id="guild-context-leave-guild"].focused-3afm-j, [id="message-actions-delete"].focused-3afm-j, [id="user-context-kick"].focused-3afm-j, [id="user-context-ban"].focused-3afm-j, [id="user-context-voice-disconnect"].focused-3afm-j, [id="user-context-voice-deafen"].focused-3afm-j, [id="user-context-voice-mute"].focused-3afm-j, [id="channel-context-delete-channel"].focused-3afm-j { 
+#message-delete.focused-3afm-j, #guild-header-popout-leave.focused-3afm-j, #guild-context-leave-guild.focused-3afm-j, #message-actions-delete.focused-3afm-j, #user-context-kick.focused-3afm-j, #user-context-ban.focused-3afm-j, #user-context-voice-disconnect.focused-3afm-j, #user-context-voice-deafen.focused-3afm-j, #user-context-voice-mute.focused-3afm-j, #channel-context-delete-channel.focused-3afm-j { 
    color: rgb(255, 255, 255) !important;
    background-image: var(--red-buttons-gradient);
 }
-[id="guild-header-popout-premium-subscribe"].focused-3afm-j { 
+#guild-header-popout-premium-subscribe.focused-3afm-j { 
    color: rgb(255, 255, 255) !important;
    background-image: var(--server-boost-gradient);
 }
-[id="status-picker-online"].focused-3afm-j { 
+#status-picker-online.focused-3afm-j { 
     background-image: var(--online-graident);
 }
-[id="status-picker-idle"].focused-3afm-j { 
+#status-picker-idle.focused-3afm-j { 
     background-image: var(--idle-gradient);
 }
-[id="status-picker-dnd"].focused-3afm-j { 
+#status-picker-dnd.focused-3afm-j { 
     background-image: var(--dnd-gradient);
 }
-[id="status-picker-invisible"].focused-3afm-j { 
+#status-picker-invisible.focused-3afm-j { 
     background-image: var(--invisible-gradient);
 }
 
- /* Button Gradients on server list. (Home, add server, discovery icons + servers with no picture).*/
- .wrapper-1BJsBx.selected-bZ3Lue > .childWrapper-anI2G9 {
+/* Button Gradients on server list. (Home, add server, discovery icons + servers with no picture).*/
+.wrapper-1BJsBx.selected-bZ3Lue > .childWrapper-anI2G9 {
     background-image: var(--main-gradient);
     font-size: 15px;
     font-weight: bold;
