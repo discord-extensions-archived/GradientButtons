@@ -64,3 +64,8 @@
  .selected-ugP_am > svg {
     transform: scale(1.3);
 }
+
+/* Too lazy to sort rn. */
+.barFill-23-gu-{
+    background-image: var(--main-gradient);
+}
