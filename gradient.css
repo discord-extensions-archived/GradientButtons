@@ -11,7 +11,7 @@
 /* Adds a gradient to option buttons. */
 .focused-3afm-j, .focused-3ZzkKr, [id="guild-header-popout-invite-people"].focused-3afm-j, [id="guild-context-invite-people"].focused-3afm-j, [id="channel-context-invite-people"].focused-3afm-j { 
     color: rgb(255, 255, 255) !important;
-    background-image: var(--main-graident);
+    background-image: var(--main-gradient);
     font-size: 15px;
     font-weight: bold;
     transition: 0.1s linear;
@@ -45,12 +45,12 @@
 
  /* Button Gradients on server list. (Home, add server, discovery icons + servers with no picture).*/
  .wrapper-1BJsBx.selected-bZ3Lue > .childWrapper-anI2G9 {
-    background-image: var(--main-graident);
+    background-image: var(--main-gradient);
     font-size: 15px;
     font-weight: bold;
 }
 .selected-ugP_am {
-    background-image: var(--main-graident);
+    background-image: var(--main-gradient);
     font-size: 15px;
     font-weight: bold;
 }
