@@ -119,6 +119,12 @@
 
 
 /* Other unsorted gradients. */
-.bar-2Qqk5Z > .barFill-23-gu- { 
+[aria-label="Input Volume"] > .bar-2Qqk5Z > .barFill-23-gu- { /* User Volume Bar */
     background-image: var(--main-gradient) !important;
+}
+[aria-label="Add Friend"] { /* Add friend button. */
+    background-image: var(--green-graident);
+}
+[type="button"].button-1YfofB { /* Video and Screenshare Buttons. */
+    background-image: var(--white-gradient) !important;
 }
