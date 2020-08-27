@@ -10,11 +10,11 @@
 
 
 /* Animation transitons on hover. */
-.item-PXvHYJ:hover, .valueChecked-m-4IJZ:hover, .button-38aScr:hover { 
+.side-8zPYf6 > .item-PXvHYJ.selected-3s45Ha:hover, .side-8zPYf6 > .item-PXvHYJ:hover, .valueChecked-m-4IJZ:hover, .button-38aScr:hover { 
     transform: scale(1.080);
     transition: 0.1s linear;
 }
-.colorGreen-29iAKY:hover, .colorYellow-2JqYwt:hover, .colorRed-1TFJan:hover, .addButton-pcyyf6:hover, #roles-d34c09f7-4b9e-4401-b9d5-0292a3e795eb-3:hover, .role-2irmRk:hover,  .wrapper-1BJsBx.selected-bZ3Lue > .childWrapper-anI2G9 > .homeIcon-tEMBK1  {
+.colorGreen-29iAKY:hover, .colorYellow-2JqYwt:hover, .colorRed-1TFJan:hover, .addButton-pcyyf6:hover, .role-2irmRk:hover,  .wrapper-1BJsBx.selected-bZ3Lue > .childWrapper-anI2G9 > .homeIcon-tEMBK1  {
     transform: scale(1.085) !important;
     transition: 0.1s linear;
 } 
@@ -74,7 +74,7 @@
 
 
 /* Most buttons in settings. */
-.item-PXvHYJ.selected-3s45Ha, [data-item-id="DiscordNitro"]:focus, [data-item-id="GUILD_PREMIUM"]:focus, .valueChecked-m-4IJZ, .button-38aScr.lookFilled-1Gx00P { 
+.side-8zPYf6 > .item-PXvHYJ.selected-3s45Ha, [data-item-id="DiscordNitro"]:focus, [data-item-id="GUILD_PREMIUM"]:focus, .valueChecked-m-4IJZ, .button-38aScr.lookFilled-1Gx00P { 
     background-image: var(--default-gradient) !important;
 }
 .colorRed-1TFJan, [data-item-id="logout"]:focus  {
@@ -86,7 +86,7 @@
 
 
 /* Roles + buttons in Usermenu popout. */
-.addButton-pcyyf6:hover, #roles-d34c09f7-4b9e-4401-b9d5-0292a3e795eb-3:hover {
+.addButton-pcyyf6:hover, .overflowButton-1SCpCf.actionButton-VzECiy.role-2irmRk:hover {
     background-image: var(--default-gradient) !important;
 }
 .role-2irmRk:hover {
