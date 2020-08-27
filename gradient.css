@@ -10,7 +10,7 @@
 
 
 /* Animation transitons on hover. */
-.side-8zPYf6 > .item-PXvHYJ.selected-3s45Ha:hover, .side-8zPYf6 > .item-PXvHYJ:hover, .valueChecked-m-4IJZ:hover, .button-38aScr:hover { 
+.side-8zPYf6 > .item-PXvHYJ.selected-3s45Ha:hover, .side-8zPYf6 > .item-PXvHYJ:hover, .valueChecked-m-4IJZ:hover, .button-1YfofB.buttonColor-7qQbGO.button-38aScr:hover, .button-38aScr.lookFilled-1Gx00P.colorBrand-3pXr91:hover  { 
     transform: scale(1.080);
     transition: 0.1s linear;
 }
@@ -35,7 +35,7 @@
     font-weight: bold;
     transition: 0.1s linear;
 }
-#message-delete.focused-3afm-j, #guild-header-popout-leave.focused-3afm-j, #guild-context-leave-guild.focused-3afm-j, #message-actions-delete.focused-3afm-j, #user-context-kick.focused-3afm-j, #user-context-ban.focused-3afm-j, #user-context-voice-disconnect.focused-3afm-j, #user-context-voice-deafen.focused-3afm-j, #user-context-voice-mute.focused-3afm-j, #channel-context-delete-channel.focused-3afm-j { 
+#message-delete.focused-3afm-j, #guild-header-popout-leave.focused-3afm-j, #guild-context-leave-guild.focused-3afm-j, #message-actions-delete.focused-3afm-j, #user-context-kick.focused-3afm-j, #user-context-ban.focused-3afm-j, #user-context-voice-disconnect.focused-3afm-j, #user-context-voice-deafen.focused-3afm-j, #user-context-voice-mute.focused-3afm-j, #channel-context-delete-channel.focused-3afm-j, #user-profile-actions-user-remove.focused-3afm-j, #user-profile-actions-user-block.focused-3afm-j { 
     color: rgb(255, 255, 255) !important;
     background-image: var(--red-gradient);
 }
@@ -74,7 +74,7 @@
 
 
 /* Most buttons in settings. */
-.side-8zPYf6 > .item-PXvHYJ.selected-3s45Ha, [data-item-id="DiscordNitro"]:focus, [data-item-id="GUILD_PREMIUM"]:focus, .valueChecked-m-4IJZ, .button-38aScr.lookFilled-1Gx00P { 
+.side-8zPYf6 > .item-PXvHYJ.selected-3s45Ha, [data-item-id="DiscordNitro"]:focus, [data-item-id="GUILD_PREMIUM"]:focus, .valueChecked-m-4IJZ, .button-38aScr.lookFilled-1Gx00P.colorBrand-3pXr91  { 
     background-image: var(--default-gradient) !important;
 }
 .colorRed-1TFJan, [data-item-id="logout"]:focus  {
@@ -111,6 +111,6 @@
 [aria-label="Input Volume"] > .bar-2Qqk5Z > .barFill-23-gu- { /* User Volume Bar */
     background-image: var(--default-gradient) !important;
 }
-[type="button"].button-1YfofB { /* Video and Screenshare Buttons. */
+[aria-label="Share Your Screen"].button-1YfofB.buttonColor-7qQbGO, [aria-label="Camera Unavailable"].button-1YfofB.buttonColor-7qQbGO, [aria-label="Turn On Camera"].button-1YfofB.buttonColor-7qQbGO { /* Video and Screenshare Buttons. */
     background-image: var(--white-gradient) !important;
 }
