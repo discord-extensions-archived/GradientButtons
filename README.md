@@ -11,7 +11,7 @@ Add some spice to your buttons, some very neat-o buttons for Discord. Heck yeah 
 ## Installation
 For quick installation, go to **Settings -> Themes -> Quick CSS** and enter the following code:
 
-	@import  url("https://raw.githack.com/LuckFire/GradientButtons/master/source.css");
+	@import url("https://raw.githack.com/LuckFire/GradientButtons/master/source.css");
 	
 	:root {
 	--default-gradient: 315deg, #495DA4  0%, #7289DA  74%  !important;
