@@ -9,7 +9,7 @@ Add some spice to your buttons, some very neat-o buttons for Discord. Heck yeah 
 ![Sever List Gradients OuO](https://cdn.discordapp.com/attachments/738968109288914976/747878993419829380/JKK6FuwR8C.gif)
 
 ## Installation
-For quick installation, you can go to **Settings -> Themes -> Quick CSS** and enter the following code:
+For quick installation, go to **Settings -> Themes -> Quick CSS** and enter the following code:
 
 	@import  url("https://raw.githack.com/LuckFire/GradientButtons/master/source.css");
 	:root {
