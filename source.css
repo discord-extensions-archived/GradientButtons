@@ -47,7 +47,7 @@
 
 /* Status menu buttons. */
 #status-picker-online.focused-3afm-j { 
-    background-image: linear-gradient(var(--green-graident));
+    background-image: linear-gradient(var(--green-gradient));
 }
 #status-picker-idle.focused-3afm-j { 
     background-image: linear-gradient(var(--yellow-gradient));
@@ -97,7 +97,7 @@
 
 /* Other buttons. */
 .lookFilled-1Gx00P.colorGreen-29iAKY, [aria-label="Add Friend"] { /* Most green buttons */
-    background-image: linear-gradient(var(--green-graident)) !important;
+    background-image: linear-gradient(var(--green-gradient)) !important;
 }
 .lookFilled-1Gx00P.colorYellow-2JqYwt { /* Most yellow buttons */
     background-image: linear-gradient(var(--yellow-gradient)) !important;
