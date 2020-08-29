@@ -1,4 +1,4 @@
-@import url("https://raw.githack.com/LuckFire/GradientButtons/master/gradient.css");
+@import url("https://raw.githack.com/LuckFire/GradientButtons/master/source.css");
 
 :root {
     --default-gradient: 315deg, #AA3738 0%, #F04747 74% !important;
