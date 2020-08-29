@@ -9,21 +9,21 @@ Add some spice to your buttons, some very neat-o buttons for Discord. Heck yeah 
 ![Sever List Gradients OuO](https://cdn.discordapp.com/attachments/738968109288914976/747878993419829380/JKK6FuwR8C.gif)
 
 ## Installation
-For quick installation, go to **Settings -> Themes -> Quick CSS** and enter the following code:
+For quick installation, go to **Settings -> Themes -> Quick CSS** and paste the following code:
 
 	@import url("https://raw.githack.com/LuckFire/GradientButtons/master/source.css");
 	
 	:root {
-	--default-gradient: 315deg, #495DA4  0%, #7289DA  74%  !important;
-	--special-gradient: 315deg, #8980F0  0%, #D577F0  74%  !important;
-	--red-gradient: 315deg, #AA3738  0%, #F04747  74%  !important;
-	--yellow-gradient: 315deg, #C2831B  0%, #FFB740  74%  !important;
-	--green-gradient: 315deg, #264D41  0%, #43B581  74%  !important;
-	--grey-gradient: 315deg, #373A45  0%, #747F8D  74%  !important;
-	--white-gradient: 315deg, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0) 74%  !important;
+		--default-gradient: 315deg, #495DA4  0%, #7289DA  74%  !important;
+		--special-gradient: 315deg, #8980F0  0%, #D577F0  74%  !important;
+		--red-gradient: 315deg, #AA3738  0%, #F04747  74%  !important;
+		--yellow-gradient: 315deg, #C2831B  0%, #FFB740  74%  !important;
+		--green-gradient: 315deg, #264D41  0%, #43B581  74%  !important;
+		--grey-gradient: 315deg, #373A45  0%, #747F8D  74%  !important;
+		--white-gradient: 315deg, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0) 74%  !important;
 	}    
 
-For manual installation, open **your themes folder, open a command prmopt/powershell/terminal/git bash** and enter the following:
+For manual installation, go to **your themes folder, open a command prompt / powershell / terminal / or git bash** and enter the following:
 
     git clone https://github.com/LuckFire/GradientButtons
 
