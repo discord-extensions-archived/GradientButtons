@@ -96,7 +96,7 @@
 
 
 /* Other buttons. */
-.lookFilled-1Gx00P.colorGreen-29iAKY, [aria-label="Add Friend"] { /* Most green buttons */
+.lookFilled-1Gx00P.colorGreen-29iAKY, [aria-label="Add Friend"], .actionButtons-14eAc_ > .buttonColor-7qQbGO.buttonActive-3FrkXp { /* Most green buttons */
     background-image: linear-gradient(var(--green-gradient)) !important;
 }
 .lookFilled-1Gx00P.colorYellow-2JqYwt { /* Most yellow buttons */
@@ -114,6 +114,6 @@
 [aria-label="Share Your Screen"].button-1YfofB.buttonColor-7qQbGO, [aria-label="Camera Unavailable"].button-1YfofB.buttonColor-7qQbGO, [aria-label="Turn On Camera"].button-1YfofB.buttonColor-7qQbGO, .disabledButtonWrapper-3wH6-b > .button-1YfofB.buttonColor-7qQbGO { /* Video and Screenshare Buttons. */
     background-image: linear-gradient(var(--white-gradient)) !important;
 }
-.button-38aScr.lookFilled-1Gx00P.colorPrimary-3b3xI6 {
+.button-38aScr.lookFilled-1Gx00P.colorPrimary-3b3xI6 { /* Most blurple buttons */
     background-image: linear-gradient(var(--default-gradient)) !important;
 }
