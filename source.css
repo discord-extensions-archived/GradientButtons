@@ -10,7 +10,7 @@
 
 
 /* Animation transitons on hover. */
-.side-8zPYf6 > .item-PXvHYJ.selected-3s45Ha:hover, .side-8zPYf6 > .item-PXvHYJ:hover, .valueChecked-m-4IJZ:hover, .button-1YfofB.buttonColor-7qQbGO.button-38aScr:hover, .button-38aScr.lookFilled-1Gx00P.colorBrand-3pXr91:hover  { 
+.side-8zPYf6 > .item-PXvHYJ.selected-3s45Ha:hover, .side-8zPYf6 > .item-PXvHYJ:hover, .valueChecked-m-4IJZ:hover, .button-1YfofB.buttonColor-7qQbGO.button-38aScr:hover, .button-38aScr.lookFilled-1Gx00P.colorBrand-3pXr91:hover, .actionRed-gYn8D3:hover { 
     transform: scale(1.080);
     transition: 0.1s linear;
 }
@@ -102,7 +102,7 @@
 .lookFilled-1Gx00P.colorYellow-2JqYwt { /* Most yellow buttons */
     background-image: linear-gradient(var(--yellow-gradient)) !important;
 }
-.lookFilled-1Gx00P.colorRed-1TFJan { /* Most red buttons */
+.lookFilled-1Gx00P.colorRed-1TFJan, .actionRed-gYn8D3 { /* Most red buttons */
     background-image: linear-gradient(var(--red-gradient));
 }
 .secondaryButton-BIo-2g.button-38aScr { /* Secondary Buttons */
