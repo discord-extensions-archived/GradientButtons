@@ -8,22 +8,21 @@
     --white-gradient: 315deg, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0) 74%;
 }
 
-
 /* Animation transitons on hover. */
-.side-8zPYf6 > .item-PXvHYJ.selected-3s45Ha:hover, .side-8zPYf6 > .item-PXvHYJ:hover, .valueChecked-m-4IJZ:hover, .button-1YfofB.buttonColor-7qQbGO.button-38aScr:hover, .button-38aScr.lookFilled-1Gx00P.colorBrand-3pXr91:hover, .actionRed-gYn8D3:hover { 
-    transform: scale(1.080);
-    transition: 0.1s linear;
+.side-8zPYf6 > .item-PXvHYJ.selected-3s45Ha:hover, .side-8zPYf6 > .item-PXvHYJ:hover, .button-1YfofB.buttonColor-7qQbGO.button-38aScr:hover, .button-38aScr.lookFilled-1Gx00P.colorBrand-3pXr91:hover, .actionRed-gYn8D3:hover { 
+    transform: scale(1.035);
+    transition: 0.15s linear;
 }
 .colorGreen-29iAKY:hover, .colorYellow-2JqYwt:hover, .colorRed-1TFJan:hover, .addButton-pcyyf6:hover, .role-2irmRk:hover,  .wrapper-1BJsBx.selected-bZ3Lue > .childWrapper-anI2G9 > .homeIcon-tEMBK1, .button-38aScr.lookFilled-1Gx00P.colorPrimary-3b3xI6:hover  {
-    transform: scale(1.085) !important;
-    transition: 0.1s linear;
+    transform: scale(1.045) !important;
+    transition: 0.15s linear;
 } 
-.focused-3afm-j > .imageContainer-2fGqYU > img, .focused-3ZzkKr > img, .selected-ugP_am > svg  { 
-    transform: scale(1.3);
-    transition: 0.1s linear;
- }
+.focused-3afm-j > .imageContainer-2fGqYU > img, .focused-3ZzkKr > img, .selected-ugP_am > svg, .valueChecked-m-4IJZ:hover  { 
+    transform: scale(1.15);
+    transition: 0.15s linear;
+}
 .circleIconButton-jET_ig {
-    transition: 0.1s linear;
+    transition: 0.15s linear;
 }
 
 
@@ -117,3 +116,4 @@
 .button-38aScr.lookFilled-1Gx00P.colorPrimary-3b3xI6 { /* Most blurple buttons */
     background-image: linear-gradient(var(--default-gradient)) !important;
 }
+
