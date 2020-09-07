@@ -62,7 +62,8 @@
 #user-context-voice-mute.focused-3afm-j, 
 #channel-context-delete-channel.focused-3afm-j, 
 #user-profile-actions-user-remove.focused-3afm-j, 
-#user-profile-actions-user-block.focused-3afm-j { 
+#user-profile-actions-user-block.focused-3afm-j,
+#friend-row-remove-friend { 
     color: rgb(255, 255, 255) !important;
     background-image: linear-gradient(var(--red-gradient));
 }
