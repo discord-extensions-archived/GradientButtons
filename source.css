@@ -32,10 +32,10 @@
 .selected-ugP_am > svg, 
 .valueChecked-m-4IJZ:hover  { 
     transform: scale(1.15);
-    transition: 0.15s linear;
 }
+.focused-3ZzkKr > img,
 .circleIconButton-jET_ig {
-    transition: 0.15s linear;
+    transition: 0.20s linear;
 }
 
 
