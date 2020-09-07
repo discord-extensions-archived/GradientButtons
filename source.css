@@ -112,7 +112,7 @@
 }
 
 /* Other buttons. */
-.button-38aScr.colorGreen-29iAKY, 
+.button-38aScr.lookFilled-1Gx00P.colorGreen-29iAKY, 
 [aria-label="Add Friend"], 
 .actionButtons-14eAc_ > .buttonColor-7qQbGO.buttonActive-3FrkXp { /* Most green buttons */
     background-image: linear-gradient(var(--green-gradient)) !important
@@ -136,7 +136,7 @@
 .disabledButtonWrapper-3wH6-b > .button-1YfofB.buttonColor-7qQbGO { /* Video and Screenshare Buttons. */
     background-image: linear-gradient(var(--white-gradient)) !important
 }
-.button-38aScr.colorPrimary-3b3xI6,
+.button-38aScr.lookFilled-1Gx00P.colorPrimary-3b3xI6,
 .button-38aScr.lookFilled-1Gx00P.colorBrand-3pXr91 { /* Most blurple buttons */
     background-image: linear-gradient(var(--default-gradient)) !important
 }
