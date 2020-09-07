@@ -9,6 +9,11 @@ Add some spice to your buttons, some very neat-o buttons for Discord. Heck yeah 
 ![Sever List Gradients OuO](https://cdn.discordapp.com/attachments/738968109288914976/747878993419829380/JKK6FuwR8C.gif)
 
 ## Installation
+
+For manual installation, go to **your themes folder, open a command prompt / powershell / terminal / or git bash** and enter the following:
+
+    git clone https://github.com/LuckFire/GradientButtons
+
 For quick installation, go to **Settings -> Themes -> Quick CSS** and copy-paste the following code:
 
 	@import url("https://raw.githack.com/LuckFire/GradientButtons/master/source.css");
@@ -23,11 +28,6 @@ For quick installation, go to **Settings -> Themes -> Quick CSS** and copy-paste
 		--white-gradient: 315deg, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0) 74%  !important;
 	}    
 
-For manual installation, go to **your themes folder, open a command prompt / powershell / terminal / or git bash** and enter the following:
-
-    git clone https://github.com/LuckFire/GradientButtons
-
- 
 ## Credits
 Hoofer - For yelling at me in VC while making this and helping me a bit with the code.
 
