@@ -55,7 +55,7 @@
     color: rgb(255, 255, 255) !important;
     background-image: linear-gradient(var(--red-gradient))
 }
-#guild-header-popout-premium-subscribe.focused-3afm-j { 
+#guild-header-popout-premium-subscribe.focused-3afm-j, #guild-header-popout-premium-subscribe:active { 
     color: rgb(255, 255, 255) !important;
     background-image: linear-gradient(var(--special-gradient)) !important
 }
