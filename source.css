@@ -8,14 +8,14 @@
     --white-gradient: 315deg, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0) 74%;
 }
 
-/* Animation transitons on hover. */
+/* All aniomation transitons on hover. */
 .side-8zPYf6 > .item-PXvHYJ.selected-3s45Ha:hover, 
 .side-8zPYf6 > .item-PXvHYJ:hover, 
 .button-1YfofB.buttonColor-7qQbGO.button-38aScr:hover, 
 .button-38aScr.lookFilled-1Gx00P.colorBrand-3pXr91:hover, 
 .actionRed-gYn8D3:hover { 
     transform: scale(1.035);
-    transition: 0.15s linear;
+    transition: 0.15s linear
 }
 .colorGreen-29iAKY:hover, 
 .colorYellow-2JqYwt:hover, 
@@ -25,135 +25,118 @@
 .wrapper-1BJsBx.selected-bZ3Lue > .childWrapper-anI2G9 > .homeIcon-tEMBK1, 
 .button-38aScr.lookFilled-1Gx00P.colorPrimary-3b3xI6:hover  {
     transform: scale(1.045) !important;
-    transition: 0.15s linear;
+    transition: 0.15s linear
 } 
 .focused-3afm-j > .imageContainer-2fGqYU > img, 
 .focused-3ZzkKr > img, 
-.selected-ugP_am > svg, 
-.valueChecked-m-4IJZ:hover  { 
-    transform: scale(1.15);
+.selected-ugP_am > svg { 
+    transform: scale(1.15)
 }
 .focused-3ZzkKr > img,
 .circleIconButton-jET_ig {
-    transition: 0.20s linear;
+    transition: 0.20s linear
+}
+.valueChecked-m-4IJZ:hover {
+    transform: scale(1.12);
+    transition: 0.17s linear
 }
 
-
 /* Menu buttons (right click, server menu, etc.) */
+.item-1tOPte:active, 
 .focused-3afm-j, 
-.focused-3ZzkKr, 
-#guild-header-popout-invite-people.focused-3afm-j, 
-#guild-context-invite-people.focused-3afm-j, 
-#channel-context-invite-people.focused-3afm-j { 
+.focused-3ZzkKr { 
     color: rgb(255, 255, 255) !important;
     background-image: linear-gradient(var(--default-gradient));
     font-size: 15px;
     font-weight: bold;
-    transition: 0.1s linear;
+    transition: 0.1s linear
 }
-#message-delete.focused-3afm-j, 
-#guild-header-popout-leave.focused-3afm-j, 
-#guild-context-leave-guild.focused-3afm-j, 
-#message-actions-delete.focused-3afm-j, 
-#user-context-kick.focused-3afm-j, 
-#user-context-ban.focused-3afm-j, 
-#user-context-voice-disconnect.focused-3afm-j, 
-#user-context-voice-deafen.focused-3afm-j, 
-#user-context-voice-mute.focused-3afm-j, 
-#channel-context-delete-channel.focused-3afm-j, 
-#user-profile-actions-user-remove.focused-3afm-j, 
-#user-profile-actions-user-block.focused-3afm-j,
-#friend-row-remove-friend { 
+.item-1tOPte.colorDanger-2qLCe1.focused-3afm-j { 
     color: rgb(255, 255, 255) !important;
-    background-image: linear-gradient(var(--red-gradient));
+    background-image: linear-gradient(var(--red-gradient))
 }
 #guild-header-popout-premium-subscribe.focused-3afm-j { 
     color: rgb(255, 255, 255) !important;
-    background-image: linear-gradient(var(--special-gradient)) !important;
+    background-image: linear-gradient(var(--special-gradient)) !important
 }
-
 
 /* Status menu buttons. */
-#status-picker-online.focused-3afm-j { 
-    background-image: linear-gradient(var(--green-gradient));
+#status-picker-online.focused-3afm-j, #status-picker-online:active { 
+    background-image: linear-gradient(var(--green-gradient))
 }
-#status-picker-idle.focused-3afm-j { 
-    background-image: linear-gradient(var(--yellow-gradient));
+#status-picker-idle.focused-3afm-j, #status-picker-idle:active { 
+    background-image: linear-gradient(var(--yellow-gradient))
 }
-#status-picker-dnd.focused-3afm-j { 
-    background-image: linear-gradient(var(--red-gradient));
+#status-picker-dnd.focused-3afm-j, #status-picker-dnd:active { 
+    background-image: linear-gradient(var(--red-gradient))
 }
-#status-picker-invisible.focused-3afm-j { 
-    background-image: linear-gradient(var(--grey-gradient));
+#status-picker-invisible.focused-3afm-j, #status-picker-invisible:active { 
+    background-image: linear-gradient(var(--grey-gradient))
 }
-
+.status-1AY8sU:active {
+    background: rgb(255, 255, 255) !important
+}
 
 /* Server list (home, add server, discovery icons + servers with no picture). */
 .wrapper-1BJsBx.selected-bZ3Lue > .childWrapper-anI2G9 {
     background-image: linear-gradient(var(--default-gradient));
     font-size: 15px;
-    font-weight: bold;
+    font-weight: bold
 }
 .selected-ugP_am {
     background-image: linear-gradient(var(--default-gradient));
     font-size: 15px;
-    font-weight: bold;
+    font-weight: bold
 }
-
 
 /* Most buttons in settings. */
 .side-8zPYf6 > .item-PXvHYJ.selected-3s45Ha, 
-[data-item-id="DiscordNitro"]:focus, 
+[data-item-id="DiscordNitro"]:focus,
 [data-item-id="GUILD_PREMIUM"]:focus, 
-.valueChecked-m-4IJZ, 
-.button-38aScr.lookFilled-1Gx00P.colorBrand-3pXr91  { 
-    background-image: linear-gradient(var(--default-gradient)) !important;
+.valueChecked-m-4IJZ { 
+    color: rgb(255, 255, 255) !important; 
+    background-image: linear-gradient(var(--default-gradient)) !important
 }
-.colorRed-1TFJan, 
-[data-item-id="logout"]:focus  {
-    background-image: linear-gradient(var(--red-gradient));
+.button-38aScr.colorRed-1TFJan > .contents-18-Yxp {
+    color: rgb(255,255,255)
 }
-.colorRed-1TFJan > .contents-18-Yxp {
-    color: rgb(255,255,255);
-}
-
 
 /* Roles + buttons in Usermenu popout. */
 .addButton-pcyyf6:hover, 
 .overflowButton-1SCpCf.actionButton-VzECiy.role-2irmRk:hover {
-    background-image: linear-gradient(var(--default-gradient)) !important;
+    background-image: linear-gradient(var(--default-gradient)) !important
 }
 .role-2irmRk:hover {
     color: rgb(255, 255, 255);
-    background-image: linear-gradient(var(--white-gradient));
+    background-image: linear-gradient(var(--white-gradient))
 }
-
 
 /* Other buttons. */
-.lookFilled-1Gx00P.colorGreen-29iAKY, 
+.button-38aScr.colorGreen-29iAKY, 
 [aria-label="Add Friend"], 
 .actionButtons-14eAc_ > .buttonColor-7qQbGO.buttonActive-3FrkXp { /* Most green buttons */
-    background-image: linear-gradient(var(--green-gradient)) !important;
+    background-image: linear-gradient(var(--green-gradient)) !important
 }
-.lookFilled-1Gx00P.colorYellow-2JqYwt { /* Most yellow buttons */
-    background-image: linear-gradient(var(--yellow-gradient)) !important;
+.button-38aScr.colorYellow-2JqYwt { /* Most yellow buttons */
+    background-image: linear-gradient(var(--yellow-gradient)) !important
 }
-.lookFilled-1Gx00P.colorRed-1TFJan, 
+.button-38aScr.colorRed-1TFJan, 
 .actionRed-gYn8D3 { /* Most red buttons */
-    background-image: linear-gradient(var(--red-gradient));
+    background-image: linear-gradient(var(--red-gradient))
 }
 .secondaryButton-BIo-2g.button-38aScr { /* Secondary Buttons */
-    background-image: linear-gradient(var(--white-gradient)) !important;
+    background-image: linear-gradient(var(--white-gradient)) !important
 }
 [aria-label="Input Volume"] > .bar-2Qqk5Z > .barFill-23-gu- { /* User Volume Bar */
-    background-image: linear-gradient(var(--default-gradient)) !important;
+    background-image: linear-gradient(var(--default-gradient)) !important
 }
 [aria-label="Share Your Screen"].button-1YfofB.buttonColor-7qQbGO, 
 [aria-label="Camera Unavailable"].button-1YfofB.buttonColor-7qQbGO, 
 [aria-label="Turn On Camera"].button-1YfofB.buttonColor-7qQbGO, 
 .disabledButtonWrapper-3wH6-b > .button-1YfofB.buttonColor-7qQbGO { /* Video and Screenshare Buttons. */
-    background-image: linear-gradient(var(--white-gradient)) !important;
+    background-image: linear-gradient(var(--white-gradient)) !important
 }
-.button-38aScr.lookFilled-1Gx00P.colorPrimary-3b3xI6 { /* Most blurple buttons */
-    background-image: linear-gradient(var(--default-gradient)) !important;
+.button-38aScr.colorPrimary-3b3xI6,
+.button-38aScr.lookFilled-1Gx00P.colorBrand-3pXr91 { /* Most blurple buttons */
+    background-image: linear-gradient(var(--default-gradient)) !important
 }
