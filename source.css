@@ -51,7 +51,7 @@
     font-weight: bold;
     transition: 0.1s linear
 }
-.item-1tOPte.colorDanger-2qLCe1.focused-3afm-j { 
+.item-1tOPte.colorDanger-2qLCe1.focused-3afm-j, .item-1tOPte.colorDanger-2qLCe1:active { 
     color: rgb(255, 255, 255) !important;
     background-image: linear-gradient(var(--red-gradient))
 }
