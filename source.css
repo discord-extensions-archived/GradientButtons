@@ -44,7 +44,9 @@
 /* Menu buttons (right click, server menu, etc.) */
 .item-1tOPte:active, 
 .focused-3afm-j, 
-.focused-3ZzkKr { 
+.focused-3ZzkKr,
+#guild-header-popout-invite-people,
+#channel-context-invite-people { 
     color: rgb(255, 255, 255) !important;
     background-image: linear-gradient(var(--default-gradient));
     font-size: 15px;
