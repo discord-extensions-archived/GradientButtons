@@ -46,7 +46,8 @@
 .focused-3afm-j, 
 .focused-3ZzkKr,
 #guild-header-popout-invite-people.focused-3afm-j, #guild-header-popout-invite-people
-#channel-context-invite-people.focused-3afm-j, #channel-context-invite-people:active { 
+#channel-context-invite-people.focused-3afm-j, #channel-context-invite-people:active,
+#guild-context-invite-people.focused-3afm-j , #guild-context-invite-people:active { 
     color: rgb(255, 255, 255) !important;
     background-image: linear-gradient(var(--default-gradient));
     font-size: 15px;
