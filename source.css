@@ -13,7 +13,8 @@
 .side-8zPYf6 > .item-PXvHYJ:hover, 
 .button-1YfofB.buttonColor-7qQbGO.button-38aScr:hover, 
 .button-38aScr.lookFilled-1Gx00P.colorBrand-3pXr91:hover, 
-.actionRed-gYn8D3:hover { 
+.actionRed-gYn8D3:hover,
+.wrapper-2aW0bm > *:hover { 
     transform: scale(1.035);
     transition: 0.15s linear
 }
@@ -45,6 +46,7 @@
 .item-1tOPte:active, 
 .focused-3afm-j, 
 .focused-3ZzkKr,
+.wrapper-2aW0bm > *:hover,
 #guild-header-popout-invite-people.focused-3afm-j, #guild-header-popout-invite-people
 #channel-context-invite-people.focused-3afm-j, #channel-context-invite-people:active,
 #guild-context-invite-people.focused-3afm-j , #guild-context-invite-people:active { 
@@ -82,7 +84,7 @@
 
 /* Server list (home, add server, discovery icons + servers with no picture). */
 .wrapper-1BJsBx.selected-bZ3Lue > .childWrapper-anI2G9 {
-    background: linear-gradient(var(--default-gradient));
+    background-image: linear-gradient(var(--default-gradient));
     font-size: 15px;
     font-weight: bold
 }
@@ -125,7 +127,7 @@
 .powercord-updater > div > .colorBrand-3pXr91,
 .powercord-plugin-footer > .colorBrand-3pXr91,
 .userInfoViewing-16kqK3 > .colorBrand-3pXr91,
-.children-rWhLdy > div > .lookFilled-1Gx00P.colorBrand-3pXr91 {
+.children-rWhLdy > div > .lookFilled-1Gx00P.colorBrand-3pXr91  {
     background: linear-gradient(var(--default-gradient)) !important;
 }
 
@@ -140,7 +142,8 @@
     background: linear-gradient(var(--yellow-gradient)) !important
 }
 .button-38aScr.colorRed-1TFJan, 
-.actionRed-gYn8D3 { /* Most red buttons */
+.actionRed-gYn8D3,
+.button-1ZiXG9.dangerous-2r8KxV:hover { /* Most red buttons */
     background: linear-gradient(var(--red-gradient))
 }
 .secondaryButton-BIo-2g.button-38aScr { /* Secondary Buttons */
