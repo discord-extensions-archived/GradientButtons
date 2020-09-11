@@ -84,12 +84,12 @@
 
 /* Server list (home, add server, discovery icons + servers with no picture). */
 .wrapper-1BJsBx.selected-bZ3Lue > .childWrapper-anI2G9 {
-    background-image: linear-gradient(var(--default-gradient));
+    background: linear-gradient(var(--default-gradient));
     font-size: 15px;
     font-weight: bold
 }
 .selected-ugP_am {
-    background-image: linear-gradient(var(--default-gradient));
+    background: linear-gradient(var(--default-gradient));
     font-size: 15px;
     font-weight: bold
 }
@@ -103,7 +103,7 @@
     background: linear-gradient(var(--default-gradient)) !important
 }
 .button-38aScr.colorRed-1TFJan > .contents-18-Yxp {
-    color: rgb(255,255,255)
+    color: rgb(255, 255, 255)
 }
 
 /* Roles + buttons in Usermenu popout. */
@@ -128,7 +128,7 @@
 .powercord-plugin-footer > .colorBrand-3pXr91,
 .userInfoViewing-16kqK3 > .colorBrand-3pXr91,
 .children-rWhLdy > div > .lookFilled-1Gx00P.colorBrand-3pXr91  {
-    background: linear-gradient(var(--default-gradient)) !important;
+    background: linear-gradient(var(--default-gradient)) !important
 }
 
 /* Other buttons. */
