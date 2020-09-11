@@ -47,35 +47,44 @@
 .focused-3afm-j, 
 .focused-3ZzkKr,
 .wrapper-2aW0bm > *:hover,
-#guild-header-popout-invite-people.focused-3afm-j, #guild-header-popout-invite-people
-#channel-context-invite-people.focused-3afm-j, #channel-context-invite-people:active,
-#guild-context-invite-people.focused-3afm-j , #guild-context-invite-people:active { 
+#guild-header-popout-invite-people.focused-3afm-j, 
+#guild-header-popout-invite-people
+#channel-context-invite-people.focused-3afm-j, 
+#channel-context-invite-people:active,
+#guild-context-invite-people.focused-3afm-j, 
+#guild-context-invite-people:active { 
     color: rgb(255, 255, 255) !important;
     background: linear-gradient(var(--default-gradient));
     font-size: 15px;
     font-weight: bold;
     transition: 0.1s linear
 }
-.item-1tOPte.colorDanger-2qLCe1.focused-3afm-j, .item-1tOPte.colorDanger-2qLCe1:active { 
+.item-1tOPte.colorDanger-2qLCe1.focused-3afm-j, 
+.item-1tOPte.colorDanger-2qLCe1:active { 
     color: rgb(255, 255, 255) !important;
     background: linear-gradient(var(--red-gradient))
 }
-#guild-header-popout-premium-subscribe.focused-3afm-j, #guild-header-popout-premium-subscribe:active { 
+#guild-header-popout-premium-subscribe.focused-3afm-j, 
+#guild-header-popout-premium-subscribe:active { 
     color: rgb(255, 255, 255) !important;
     background: linear-gradient(var(--special-gradient)) !important
 }
 
 /* Status menu buttons. */
-#status-picker-online.focused-3afm-j, #status-picker-online:active { 
+#status-picker-online.focused-3afm-j, 
+#status-picker-online:active { 
     background: linear-gradient(var(--green-gradient))
 }
-#status-picker-idle.focused-3afm-j, #status-picker-idle:active { 
+#status-picker-idle.focused-3afm-j, 
+#status-picker-idle:active { 
     background: linear-gradient(var(--yellow-gradient))
 }
-#status-picker-dnd.focused-3afm-j, #status-picker-dnd:active { 
+#status-picker-dnd.focused-3afm-j, 
+#status-picker-dnd:active { 
     background: linear-gradient(var(--red-gradient))
 }
-#status-picker-invisible.focused-3afm-j, #status-picker-invisible:active { 
+#status-picker-invisible.focused-3afm-j, 
+#status-picker-invisible:active { 
     background: linear-gradient(var(--grey-gradient))
 }
 .status-1AY8sU:active {
