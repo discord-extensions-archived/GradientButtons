@@ -49,32 +49,32 @@
 #channel-context-invite-people.focused-3afm-j, #channel-context-invite-people:active,
 #guild-context-invite-people.focused-3afm-j , #guild-context-invite-people:active { 
     color: rgb(255, 255, 255) !important;
-    background-image: linear-gradient(var(--default-gradient));
+    background: linear-gradient(var(--default-gradient));
     font-size: 15px;
     font-weight: bold;
     transition: 0.1s linear
 }
 .item-1tOPte.colorDanger-2qLCe1.focused-3afm-j, .item-1tOPte.colorDanger-2qLCe1:active { 
     color: rgb(255, 255, 255) !important;
-    background-image: linear-gradient(var(--red-gradient))
+    background: linear-gradient(var(--red-gradient))
 }
 #guild-header-popout-premium-subscribe.focused-3afm-j, #guild-header-popout-premium-subscribe:active { 
     color: rgb(255, 255, 255) !important;
-    background-image: linear-gradient(var(--special-gradient)) !important
+    background: linear-gradient(var(--special-gradient)) !important
 }
 
 /* Status menu buttons. */
 #status-picker-online.focused-3afm-j, #status-picker-online:active { 
-    background-image: linear-gradient(var(--green-gradient))
+    background: linear-gradient(var(--green-gradient))
 }
 #status-picker-idle.focused-3afm-j, #status-picker-idle:active { 
-    background-image: linear-gradient(var(--yellow-gradient))
+    background: linear-gradient(var(--yellow-gradient))
 }
 #status-picker-dnd.focused-3afm-j, #status-picker-dnd:active { 
-    background-image: linear-gradient(var(--red-gradient))
+    background: linear-gradient(var(--red-gradient))
 }
 #status-picker-invisible.focused-3afm-j, #status-picker-invisible:active { 
-    background-image: linear-gradient(var(--grey-gradient))
+    background: linear-gradient(var(--grey-gradient))
 }
 .status-1AY8sU:active {
     background: rgb(255, 255, 255) !important
@@ -82,7 +82,7 @@
 
 /* Server list (home, add server, discovery icons + servers with no picture). */
 .wrapper-1BJsBx.selected-bZ3Lue > .childWrapper-anI2G9 {
-    background-image: linear-gradient(var(--default-gradient));
+    background: linear-gradient(var(--default-gradient));
     font-size: 15px;
     font-weight: bold
 }
@@ -98,7 +98,7 @@
 [data-item-id="GUILD_PREMIUM"]:focus, 
 .valueChecked-m-4IJZ { 
     color: rgb(255, 255, 255) !important; 
-    background-image: linear-gradient(var(--default-gradient)) !important
+    background: linear-gradient(var(--default-gradient)) !important
 }
 .button-38aScr.colorRed-1TFJan > .contents-18-Yxp {
     color: rgb(255,255,255)
@@ -107,11 +107,11 @@
 /* Roles + buttons in Usermenu popout. */
 .addButton-pcyyf6:hover, 
 .overflowButton-1SCpCf.actionButton-VzECiy.role-2irmRk:hover {
-    background-image: linear-gradient(var(--default-gradient)) !important
+    background: linear-gradient(var(--default-gradient)) !important
 }
 .role-2irmRk:hover {
     color: rgb(255, 255, 255);
-    background-image: linear-gradient(var(--white-gradient))
+    background: linear-gradient(var(--white-gradient))
 }
 
 /* Most blurple buttons. */
@@ -133,24 +133,24 @@
 .actionButtons-14eAc_ > .button-1YfofB.buttonColor-7qQbGO.buttonActive-3FrkXp,
 [aria-label="Add Friend"] { /* Most green buttons */
     color: rgb(255, 255, 255) !important;
-    background-image: linear-gradient(var(--green-gradient)) !important
+    background: linear-gradient(var(--green-gradient)) !important
 }
 .button-38aScr.colorYellow-2JqYwt { /* Most yellow buttons */
-    background-image: linear-gradient(var(--yellow-gradient)) !important
+    background: linear-gradient(var(--yellow-gradient)) !important
 }
 .button-38aScr.colorRed-1TFJan, 
 .actionRed-gYn8D3 { /* Most red buttons */
-    background-image: linear-gradient(var(--red-gradient))
+    background: linear-gradient(var(--red-gradient))
 }
 .secondaryButton-BIo-2g.button-38aScr { /* Secondary Buttons */
-    background-image: linear-gradient(var(--white-gradient)) !important
+    background: linear-gradient(var(--white-gradient)) !important
 }
 [aria-label="Input Volume"] > .bar-2Qqk5Z > .barFill-23-gu- { /* User Volume Bar */
-    background-image: linear-gradient(var(--default-gradient)) !important
+    background: linear-gradient(var(--default-gradient)) !important
 }
 [aria-label="Share Your Screen"].button-1YfofB.buttonColor-7qQbGO, 
 [aria-label="Camera Unavailable"].button-1YfofB.buttonColor-7qQbGO, 
 [aria-label="Turn On Camera"].button-1YfofB.buttonColor-7qQbGO, 
 .disabledButtonWrapper-3wH6-b > .button-1YfofB.buttonColor-7qQbGO { /* Video and Screenshare Buttons */
-    background-image: linear-gradient(var(--white-gradient)) !important
+    background: linear-gradient(var(--white-gradient)) !important
 }
