@@ -124,7 +124,8 @@
 [aria-label="Coming Soon"] > .colorBrand-3pXr91,
 .powercord-updater > div > .colorBrand-3pXr91,
 .powercord-plugin-footer > .colorBrand-3pXr91,
-.userInfoViewing-16kqK3 > .colorBrand-3pXr91 {
+.userInfoViewing-16kqK3 > .colorBrand-3pXr91,
+.children-rWhLdy > div > .lookFilled-1Gx00P.colorBrand-3pXr91 {
     background: linear-gradient(var(--default-gradient)) !important;
 }
 
