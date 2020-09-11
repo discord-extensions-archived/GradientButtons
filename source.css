@@ -127,7 +127,7 @@
 
 /* Most blurple buttons. */
 .button-38aScr.lookFilled-1Gx00P.colorPrimary-3b3xI6,
-.flex-1xMQg5 > .button-38aScr.lookFilled.colorBrand-3pXr91,
+.flex-1xMQg5 > .button-38aScr.lookFilled-1Gx00P.colorBrand-3pXr91,
 .flexChild-faoVW3 > .colorBrand-3pXr91,
 .hasSpoilers-1IRtQC > div > .colorBrand-3pXr91,
 .powercord-settings-item-title > .colorBrand-3pXr91,
@@ -136,7 +136,7 @@
 .powercord-updater > div > .colorBrand-3pXr91,
 .powercord-plugin-footer > .colorBrand-3pXr91,
 .userInfoViewing-16kqK3 > .colorBrand-3pXr91,
-.children-rWhLdy > div > .lookFilled-1Gx00P.colorBrand-3pXr91  {
+.wrapper-1cBijl > .colorBrand-3pXr91 {
     background: linear-gradient(var(--default-gradient)) !important
 }
 
@@ -161,9 +161,6 @@
 [aria-label="Input Volume"] > .bar-2Qqk5Z > .barFill-23-gu- { /* User Volume Bar */
     background: linear-gradient(var(--default-gradient)) !important
 }
-[aria-label="Share Your Screen"].button-1YfofB.buttonColor-7qQbGO, 
-[aria-label="Camera Unavailable"].button-1YfofB.buttonColor-7qQbGO, 
-[aria-label="Turn On Camera"].button-1YfofB.buttonColor-7qQbGO, 
-.disabledButtonWrapper-3wH6-b > .button-1YfofB.buttonColor-7qQbGO { /* Video and Screenshare Buttons */
+.actionButtons-14eAc_ > * { /* Video and Screenshare Buttons */
     background: linear-gradient(var(--white-gradient)) !important
 }
