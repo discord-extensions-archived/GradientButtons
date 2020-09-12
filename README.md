@@ -3,10 +3,10 @@
 Add some spice to your buttons, some very neat-o buttons for Discord. Heck yeah brother.
 
 ## Preview
-![Server Menu Popout Q.Q](https://cdn.discordapp.com/attachments/738968109288914976/747881491698024598/hST0ErlUIr.gif)
-![Gradient Buttons owo](https://cdn.discordapp.com/attachments/738968109288914976/747875750211747992/jfU46311eU.gif)
-![Status Menu Gradients uwu](https://cdn.discordapp.com/attachments/738968109288914976/747874809836339201/aIXhec9Ygk.gif)
-![Sever List Gradients OuO](https://cdn.discordapp.com/attachments/738968109288914976/747878993419829380/JKK6FuwR8C.gif)
+![Preview](https://cdn.discordapp.com/attachments/399424790764716033/754251346982469632/M9p0jBSDmk.gif)
+![Preview2](https://cdn.discordapp.com/attachments/399424790764716033/754251336165621760/FXmZB9tt0D.gif)
+![Preview3](https://cdn.discordapp.com/attachments/399424790764716033/754251346982469632/M9p0jBSDmk.gif)
+![Preview4](https://cdn.discordapp.com/attachments/399424790764716033/754251339755683842/h6yPOv3LaT.gif)
 
 ## Installation
 
