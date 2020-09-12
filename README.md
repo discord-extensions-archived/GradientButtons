@@ -3,9 +3,12 @@
 Add some spice to your buttons, some very neat-o buttons for Discord. Heck yeah brother.
 
 ## Preview
-![Preview](https://cdn.discordapp.com/attachments/399424790764716033/754251336165621760/FXmZB9tt0D.gif)
-![Preview2](https://cdn.discordapp.com/attachments/399424790764716033/754251346982469632/M9p0jBSDmk.gif)
-![Preview3](https://cdn.discordapp.com/attachments/399424790764716033/754251332080369715/E29WbWChG5.gif)
+![Preview](https://raw.githubusercontent.com/LuckFire/GradientButtons/master/Previews/8jo5e2p6PQ.gif)
+![Preview2](https://raw.githubusercontent.com/LuckFire/GradientButtons/master/Previews/MzdPxD0W8G.gif)
+![Preview3](https://raw.githubusercontent.com/LuckFire/GradientButtons/master/Previews/IzqJT07RNR.gif)
+![Preview4](https://raw.githubusercontent.com/LuckFire/GradientButtons/master/Previews/ltHmToCv50.gif)
+![Preview5](https://raw.githubusercontent.com/LuckFire/GradientButtons/master/Previews/6fJhqQ9j34.gif)
+
 
 ## Installation
 
