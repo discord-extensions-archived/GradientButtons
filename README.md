@@ -6,7 +6,6 @@ Add some spice to your buttons, some very neat-o buttons for Discord. Heck yeah 
 ![Preview](https://cdn.discordapp.com/attachments/399424790764716033/754251336165621760/FXmZB9tt0D.gif)
 ![Preview2](https://cdn.discordapp.com/attachments/399424790764716033/754251346982469632/M9p0jBSDmk.gif)
 ![Preview3](https://cdn.discordapp.com/attachments/399424790764716033/754251332080369715/E29WbWChG5.gif)
-![Preview4](https://cdn.discordapp.com/attachments/399424790764716033/754251339755683842/h6yPOv3LaT.gif)
 
 ## Installation
 
