@@ -31,6 +31,4 @@ For quick installation, go to **Settings -> Themes -> Quick CSS** and copy-paste
 	}    
 
 ## Credits
-Hoofer - For yelling at me in VC while making this and helping me a bit with the code.
-
-bototo2 - For teaching me that I can use #id selector instead of [id=""].
+Credit to Hoofer for yelling at me in VC and helping with some of the code. And a thank you to bototo2 for teaching me that I can use #id instead of [id=""]. 
