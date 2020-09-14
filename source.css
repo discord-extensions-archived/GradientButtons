@@ -148,6 +148,7 @@
     background: linear-gradient(var(--green-gradient)) !important
 }
 .button-38aScr.colorYellow-2JqYwt { /* Most yellow buttons */
+    color: rgb(255,255,255) !important
     background: linear-gradient(var(--yellow-gradient)) !important
 }
 .button-38aScr.colorRed-1TFJan, 
