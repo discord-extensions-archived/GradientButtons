@@ -163,6 +163,7 @@
 [aria-label="Input Volume"] > .bar-2Qqk5Z > .barFill-23-gu- { /* User Volume Bar */
     background: linear-gradient(var(--default-gradient)) 
 }
-.actionButtons-14eAc_ > * { /* Video and Screenshare Buttons */
+.actionButtons-14eAc_ > .colorBrand-3pXr91, 
+.actionButtons-14eAc_ > .disabledButtonWrapper-3wH6-b > [disabled] { /* Video and Screenshare Buttons */
     background: linear-gradient(var(--grey-gradient))
 }
