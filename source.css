@@ -25,7 +25,7 @@
 .role-2irmRk:hover,  
 .wrapper-1BJsBx.selected-bZ3Lue > .childWrapper-anI2G9 > .homeIcon-tEMBK1, 
 .button-38aScr.lookFilled-1Gx00P.colorPrimary-3b3xI6:hover  {
-    transform: scale(1.045) !important;
+    transform: scale(1.045);
     transition: 0.15s linear
 } 
 .focused-3afm-j > .imageContainer-2fGqYU > img, 
@@ -53,7 +53,7 @@
 #channel-context-invite-people:active,
 #guild-context-invite-people.focused-3afm-j, 
 #guild-context-invite-people:active { 
-    color: rgb(255, 255, 255) !important;
+    color: rgb(255, 255, 255);
     background: linear-gradient(var(--default-gradient));
     font-size: 15px;
     font-weight: bold;
@@ -61,13 +61,13 @@
 }
 .item-1tOPte.colorDanger-2qLCe1.focused-3afm-j, 
 .item-1tOPte.colorDanger-2qLCe1:active { 
-    color: rgb(255, 255, 255) !important;
+    color: rgb(255, 255, 255);
     background: linear-gradient(var(--red-gradient))
 }
 #guild-header-popout-premium-subscribe.focused-3afm-j, 
 #guild-header-popout-premium-subscribe:active { 
-    color: rgb(255, 255, 255) !important;
-    background: linear-gradient(var(--special-gradient)) !important
+    color: rgb(255, 255, 255);
+    background: linear-gradient(var(--special-gradient))
 }
 
 /* Status menu buttons. */
@@ -88,7 +88,7 @@
     background: linear-gradient(var(--grey-gradient))
 }
 .status-1AY8sU:active {
-    background: rgb(255, 255, 255) !important
+    background: rgb(255, 255, 255)
 }
 
 /* Server list (home, add server, discovery icons + servers with no picture). */
@@ -108,8 +108,8 @@
 [data-item-id="DiscordNitro"]:focus,
 [data-item-id="GUILD_PREMIUM"]:focus, 
 .valueChecked-m-4IJZ { 
-    color: rgb(255, 255, 255) !important; 
-    background: linear-gradient(var(--default-gradient)) !important
+    color: rgb(255, 255, 255); 
+    background: linear-gradient(var(--default-gradient))
 }
 .button-38aScr.colorRed-1TFJan > .contents-18-Yxp {
     color: rgb(255, 255, 255)
@@ -118,7 +118,7 @@
 /* Roles + buttons in Usermenu popout. */
 .addButton-pcyyf6:hover, 
 .overflowButton-1SCpCf.actionButton-VzECiy.role-2irmRk:hover {
-    background: linear-gradient(var(--default-gradient)) !important
+    background: linear-gradient(var(--default-gradient))
 }
 .role-2irmRk:hover {
     color: rgb(255, 255, 255);
@@ -137,19 +137,19 @@
 .powercord-plugin-footer > .colorBrand-3pXr91,
 .userInfoViewing-16kqK3 > .colorBrand-3pXr91,
 .wrapper-1cBijl > .colorBrand-3pXr91 {
-    background: linear-gradient(var(--default-gradient)) !important
+    background: linear-gradient(var(--default-gradient))
 }
 
 /* Other buttons. */
 .button-38aScr.lookFilled-1Gx00P.colorGreen-29iAKY, 
 .actionButtons-14eAc_ > .button-1YfofB.buttonColor-7qQbGO.buttonActive-3FrkXp,
 [aria-label="Add Friend"] { /* Most green buttons */
-    color: rgb(255, 255, 255) !important;
-    background: linear-gradient(var(--green-gradient)) !important
+    color: rgb(255, 255, 255);
+    background: linear-gradient(var(--green-gradient)) 
 }
 .button-38aScr.colorYellow-2JqYwt { /* Most yellow buttons */
-    color: rgb(255,255,255) !important
-    background: linear-gradient(var(--yellow-gradient)) !important
+    color: rgb(255,255,255);
+    background: linear-gradient(var(--yellow-gradient)) 
 }
 .button-38aScr.colorRed-1TFJan, 
 .actionRed-gYn8D3,
@@ -157,11 +157,11 @@
     background: linear-gradient(var(--red-gradient))
 }
 .secondaryButton-BIo-2g.button-38aScr { /* Secondary Buttons */
-    background: linear-gradient(var(--white-gradient)) !important
+    background: linear-gradient(var(--grey-gradient))  !important
 }
 [aria-label="Input Volume"] > .bar-2Qqk5Z > .barFill-23-gu- { /* User Volume Bar */
-    background: linear-gradient(var(--default-gradient)) !important
+    background: linear-gradient(var(--default-gradient)) 
 }
 .actionButtons-14eAc_ > * { /* Video and Screenshare Buttons */
-    background: linear-gradient(var(--white-gradient)) !important
+    background: linear-gradient(var(--grey-gradient)) !important
 }
