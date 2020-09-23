@@ -156,12 +156,13 @@
 .button-1ZiXG9.dangerous-2r8KxV:hover { /* Most red buttons */
     background: linear-gradient(var(--red-gradient))
 }
-.secondaryButton-BIo-2g.button-38aScr { /* Secondary Buttons */
+.secondaryButton-BIo-2g.button-38aScr,
+[type="button"].colorPrimary-3b3xI6.sizeSmall-2cSMqn { /* Secondary Buttons */
     background: linear-gradient(var(--grey-gradient))  !important
 }
 [aria-label="Input Volume"] > .bar-2Qqk5Z > .barFill-23-gu- { /* User Volume Bar */
     background: linear-gradient(var(--default-gradient)) 
 }
 .actionButtons-14eAc_ > * { /* Video and Screenshare Buttons */
-    background: linear-gradient(var(--grey-gradient)) !important
+    background: linear-gradient(var(--grey-gradient))
 }
