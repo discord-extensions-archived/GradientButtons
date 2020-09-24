@@ -1,6 +1,6 @@
 
 # Gradient Buttons
-Add some spice to your buttons, some very neat-o buttons for Discord. Heck yeah brother.
+Add some spice to your buttons with gradient buttons! (PS: Gradients are cool and you know it)
 
 ## Preview
 ![Preview](https://raw.githubusercontent.com/LuckFire/GradientButtons/master/Previews/8jo5e2p6PQ.gif)
