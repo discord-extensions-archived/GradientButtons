@@ -156,6 +156,9 @@
 .button-1ZiXG9.dangerous-2r8KxV:hover { /* Most red buttons */
     background: linear-gradient(var(--red-gradient))
 }
+.button-1ZiXG9.dangerous-2r8KxV:hover /* Delete Message Icon */ {
+   color: #fff;
+}
 .secondaryButton-BIo-2g.button-38aScr,
 .focusLock-Ns3yie > .modalSize-cqUaws > form > * > .lookFilled-1Gx00P.colorPrimary-3b3xI6,
 .changeButton-278ZT6 { /* Secondary Buttons */
