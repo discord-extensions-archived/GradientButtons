@@ -16,7 +16,7 @@
 .actionRed-gYn8D3:hover,
 .wrapper-2aW0bm > *:hover { 
     transform: scale(1.035);
-    transition: 0.15s linear
+    transition: 0.15s linear;
 }
 .colorGreen-29iAKY:hover, 
 .colorYellow-2JqYwt:hover, 
@@ -26,20 +26,20 @@
 .wrapper-1BJsBx.selected-bZ3Lue > .childWrapper-anI2G9 > .homeIcon-tEMBK1, 
 .button-38aScr.lookFilled-1Gx00P.colorPrimary-3b3xI6:hover  {
     transform: scale(1.045);
-    transition: 0.15s linear
+    transition: 0.15s linear;
 } 
 .focused-3afm-j > .imageContainer-2fGqYU > img, 
 .focused-3ZzkKr > img, 
 .selected-ugP_am > svg { 
-    transform: scale(1.15)
+    transform: scale(1.15);
 }
 .focused-3ZzkKr > img,
 .circleIconButton-jET_ig {
-    transition: 0.20s linear
+    transition: 0.20s linear;
 }
 .valueChecked-m-4IJZ:hover {
     transform: scale(1.12);
-    transition: 0.17s linear
+    transition: 0.17s linear;
 }
 
 /* Menu buttons (right click, server menu, etc.) */
@@ -57,50 +57,50 @@
     background: linear-gradient(var(--default-gradient));
     font-size: 15px;
     font-weight: bold;
-    transition: 0.1s linear
+    transition: 0.1s linear;
 }
 .item-1tOPte.colorDanger-2qLCe1.focused-3afm-j, 
 .item-1tOPte.colorDanger-2qLCe1:active { 
     color: rgb(255, 255, 255);
-    background: linear-gradient(var(--red-gradient))
+    background: linear-gradient(var(--red-gradient));
 }
 #guild-header-popout-premium-subscribe.focused-3afm-j, 
 #guild-header-popout-premium-subscribe:active { 
     color: rgb(255, 255, 255);
-    background: linear-gradient(var(--special-gradient))
+    background: linear-gradient(var(--special-gradient));
 }
 
 /* Status menu buttons. */
 #status-picker-online.focused-3afm-j, 
 #status-picker-online:active { 
-    background: linear-gradient(var(--green-gradient))
+    background: linear-gradient(var(--green-gradient));
 }
 #status-picker-idle.focused-3afm-j, 
 #status-picker-idle:active { 
-    background: linear-gradient(var(--yellow-gradient))
+    background: linear-gradient(var(--yellow-gradient));
 }
 #status-picker-dnd.focused-3afm-j, 
 #status-picker-dnd:active { 
-    background: linear-gradient(var(--red-gradient))
+    background: linear-gradient(var(--red-gradient));
 }
 #status-picker-invisible.focused-3afm-j, 
 #status-picker-invisible:active { 
-    background: linear-gradient(var(--grey-gradient))
+    background: linear-gradient(var(--grey-gradient));
 }
 .status-1AY8sU:active {
-    background: rgb(255, 255, 255)
+    background: rgb(255, 255, 255);
 }
 
 /* Server list (home, add server, discovery icons + servers with no picture). */
 .wrapper-1BJsBx.selected-bZ3Lue > .childWrapper-anI2G9 {
    background: linear-gradient(var(--default-gradient));
    font-size: 15px;
-   font-weight: bold
+   font-weight: bold;
 }
 .circleIconButton-jET_ig.selected-ugP_am {
    background: linear-gradient(var(--green-gradient));
    font-size: 15px;
-   font-weight: bold
+   font-weight: bold;
 }
 
 /* Most buttons in settings. */
@@ -112,17 +112,17 @@
     background: linear-gradient(var(--default-gradient))
 }
 .button-38aScr.colorRed-1TFJan > .contents-18-Yxp {
-    color: rgb(255, 255, 255)
+    color: rgb(255, 255, 255);
 }
 
 /* Roles + buttons in Usermenu popout. */
 .addButton-pcyyf6:hover, 
 .overflowButton-1SCpCf.actionButton-VzECiy.role-2irmRk:hover {
-    background: linear-gradient(var(--default-gradient))
+    background: linear-gradient(var(--default-gradient));
 }
 .role-2irmRk:hover {
     color: rgb(255, 255, 255);
-    background: linear-gradient(var(--white-gradient))
+    background: linear-gradient(var(--white-gradient));
 }
 
 /* Most blurple buttons. */
@@ -137,7 +137,7 @@
 .powercord-plugin-footer > .colorBrand-3pXr91,
 .userInfoViewing-16kqK3 > .colorBrand-3pXr91,
 .wrapper-1cBijl > .colorBrand-3pXr91 {
-    background: linear-gradient(var(--default-gradient))
+    background: linear-gradient(var(--default-gradient));
 }
 
 /* Other buttons. */
@@ -145,16 +145,16 @@
 .actionButtons-14eAc_ > .button-1YfofB.buttonColor-7qQbGO.buttonActive-3FrkXp,
 [aria-label="Add Friend"] { /* Most green buttons */
     color: rgb(255, 255, 255);
-    background: linear-gradient(var(--green-gradient)) 
+    background: linear-gradient(var(--green-gradient));
 }
 .button-38aScr.colorYellow-2JqYwt { /* Most yellow buttons */
     color: rgb(255,255,255);
-    background: linear-gradient(var(--yellow-gradient)) 
+    background: linear-gradient(var(--yellow-gradient));
 }
 .button-38aScr.colorRed-1TFJan, 
 .actionRed-gYn8D3,
 .button-1ZiXG9.dangerous-2r8KxV:hover { /* Most red buttons */
-    background: linear-gradient(var(--red-gradient))
+    background: linear-gradient(var(--red-gradient));
 }
 .button-1ZiXG9.dangerous-2r8KxV:hover /* Delete Message Icon */ {
    color: #fff;
@@ -162,14 +162,14 @@
 .secondaryButton-BIo-2g.button-38aScr,
 .focusLock-Ns3yie > .modalSize-cqUaws > form > * > .lookFilled-1Gx00P.colorPrimary-3b3xI6,
 .changeButton-278ZT6 { /* Secondary Buttons */
-    background: linear-gradient(var(--grey-gradient))  !important
+    background: linear-gradient(var(--grey-gradient)) !important;
 }
 [aria-label="Input Volume"] > .bar-2Qqk5Z > .barFill-23-gu- { /* User Volume Bar */
-    background: linear-gradient(var(--default-gradient)) 
+    background: linear-gradient(var(--default-gradient));
 }
 .actionButtons-14eAc_ > .colorBrand-3pXr91, 
 .actionButtons-14eAc_ > .disabledButtonWrapper-3wH6-b > [disabled] { /* Video and Screenshare Buttons */
-    background: linear-gradient(var(--grey-gradient))
+    background: linear-gradient(var(--grey-gradient));
 }
 
 /* Positioning Fixes */
