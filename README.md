@@ -1,3 +1,7 @@
+# v2
+This version of Gradient Buttons is no longer maintained. Since this was basically my first ever css project that I posted, it wasn't coded as efficiently. So, this time I decided to be an idiot and recode it in scss! You can find that here: https://github.com/LuckFire/GradientButtons-v2
+
+If you want to continue using this, there will no longer be updates to it so if something breaks then it's broken for good. 
 
 # Gradient Buttons
 Add some spice to your buttons with gradient buttons! (PS: Gradients are cool and you know it)
