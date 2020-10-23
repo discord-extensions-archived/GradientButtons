@@ -9,7 +9,7 @@ $white-gradient: 315deg, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0) 74%;
 
 /* Menu Items (right click, server menu, message actions, ect.) */
 .item-1tOPte[role="menuitem"].focused-3afm-j {
-    color: rgb(255, 255, 255);
+    color: #fff;
     background: linear-gradient($default-gradient);
     font-size: 15px;
     font-weight: bold;
@@ -22,10 +22,10 @@ $white-gradient: 315deg, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0) 74%;
 
 .wrapper-2aW0bm > .button-1ZiXG9 {
     &:not(.dangerous-2r8KxV):hover {
-        color: rgb(255, 255, 255);
+        color: #fff;
         background: linear-gradient($default-gradient);
         & > img, svg {
-            transform: scale(1.15);
+            transform: scale(1.1);
             transition: 0.15s linear;
         }
     }
@@ -34,7 +34,17 @@ $white-gradient: 315deg, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0) 74%;
         color: rgb(255, 255, 255);
         background: linear-gradient($red-gradient);
         & > svg:hover {
-            transform: scale(1.15);
+            transform: scale(1.1);
+            transition: 0.15s linear;
+        }
+    }
+}
+.wrapper-2aW0bm > div > .button-1ZiXG9 {
+    &:hover {
+        color: #fff;
+        background: linear-gradient($default-gradient);
+        & > img, svg {
+            transform: scale(1.1);
             transition: 0.15s linear;
         }
     }
@@ -55,21 +65,23 @@ $white-gradient: 315deg, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0) 74%;
     color: #fff
 }
 
-#status-picker-online.focused-3afm-j {
-    background: linear-gradient($green-gradient);
+#status-picker > div > .item-1tOPte {
+    transition: 0.1s linear;
+
+    &#status-picker-online.focused-3afm-j {
+        background: linear-gradient($green-gradient);
+    }
+    &#status-picker-idle.focused-3afm-j {
+        background: linear-gradient($yellow-gradient);
+    }
+    &#status-picker-dnd.focused-3afm-j {
+        background: linear-gradient($red-gradient);
+    }
+    &#status-picker-invisible.focused-3afm-j {
+        background: linear-gradient($grey-gradient);
+    }
 }
 
-#status-picker-idle.focused-3afm-j {
-    background: linear-gradient($yellow-gradient);
-}
-
-#status-picker-dnd.focused-3afm-j {
-    background: linear-gradient($red-gradient);
-}
-
-#status-picker-invisible.focused-3afm-j {
-    background: linear-gradient($grey-gradient);
-}
 
 
 /* Server List (home, join/create, discovery, ect) */
@@ -101,7 +113,7 @@ $white-gradient: 315deg, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0) 74%;
 /* Settings (user, server, ect.) */
 .side-8zPYf6 > .item-PXvHYJ {
     &:hover {
-        transform: scale(1.035);
+        transform: scale(1.025);
         transition: 0.15s linear;
     }
 
@@ -109,10 +121,14 @@ $white-gradient: 315deg, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0) 74%;
         background: linear-gradient($default-gradient);
     }
 
+
     &[data-item-id="DiscordNitro"], &[data-item-id="GUILD_PREMIUM"] {
-        &:focus, :active {
-            background: linear-gradient($default-gradient);
-        }
+        transform: scale(1);
+        transition: 0s linear;
+    }
+    &[style="color: rgb(255, 255, 255); background-color: rgb(114, 137, 218);"] {
+        color: #fff;
+        background: linear-gradient($special-gradient);
     }
 }
 
